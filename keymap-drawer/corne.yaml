@@ -42,11 +42,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - lower
-  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
-  - RGUI
   - '&td0'
+  - RGUI
   - raise
   - {t: '$$mdi:keyboard-return$$', type: enter}
   lower:
@@ -58,10 +58,10 @@ layers:
   - {t: '5', s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&EQUAL'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - {t: '6', s: ^}
@@ -70,7 +70,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - HOME
+  - INS
   - (
   - )
   - {t: '`', s: '~'}
@@ -83,20 +83,21 @@ layers:
   - F4
   - F5
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - END
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - F11
   - $$mdi:volume-off$$
   - {type: held}
-  - INS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ''
+  - '&td'
+  - '&SPACE'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - INS
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&td0'
+  - HOME
+  - END
   - $$mdi:mouse-left-click-outline$$
   raise:
   - {t: '$$mdi:transfer$$', type: trans}
