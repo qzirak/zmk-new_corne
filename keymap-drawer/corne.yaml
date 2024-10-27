@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   default:
-  - '&mt TAB'
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -50,7 +50,7 @@ layers:
   - raise
   - $$mdi:mouse-left-click-outline$$
   lower:
-  - '&mt TAB'
+  - $$mdi:keyboard-tab$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
