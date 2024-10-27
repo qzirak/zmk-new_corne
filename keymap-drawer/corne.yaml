@@ -61,7 +61,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '-', s: _}
-  - '&EQUAL'
+  - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - {t: '6', s: ^}
