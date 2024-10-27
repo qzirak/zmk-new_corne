@@ -106,9 +106,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &bt BT_CLR    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON     &rgb_ug RGB_EFF   &none  &bt BT_CLR_ALL     &mmv MOVE_DOWN   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &mmv MOVE_LEFT   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &bt BT_CLR    &mmv MOVE_UP     &none  &none   &kp UP  &none  &none  &kp BSPC
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON     &rgb_ug RGB_EFF   &none  &bt BT_CLR_ALL     &mmv MOVE_DOWN   &kp HOME  &kp LEFT  &kp DOWN   &kp RIGHT  &kp END  &kp ENTER
+&trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &mmv MOVE_LEFT   &none  &none   &none   &none  &none  &kp DEL
                       &trans        &trans     &trans     &kp SPACE    &mmv MOVE_RIGHT  &kp RET    &trans     &trans
                                                                        &mkp LCLK
             >;
