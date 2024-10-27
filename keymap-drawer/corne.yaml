@@ -92,7 +92,7 @@ layers:
   - $$mdi:volume-off$$
   - {type: held}
   - '&td0'
-  - '&SPACE'
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&td0'
   - HOME
